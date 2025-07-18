@@ -20,6 +20,7 @@
 		"make": true,
 		"flexoki-themes": true,
 		"vscode-icons": true,
+		"monospace-icon-theme": true,
 		"emmet": true,
 		"git-firefly": true
 	},
@@ -30,7 +31,7 @@
 	},
 	"languages": {
 		"Odin": {
-			"show_edit_predictions": true
+			"show_edit_predictions": false
 		},
 		"Rust": {
 			"show_edit_predictions": false
@@ -43,7 +44,7 @@
 			"format_on_save": "on"
 		}
 	},
-	"icon_theme": "VSCode Icons (Dark)",
+	"icon_theme": "Monospace Icon Theme - Dark",
 	"tabs": {
 		"file_icons": true
 	},
