@@ -1,0 +1,64 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+	"auto_install_extensions": {
+		"zig": true,
+		"odin": true,
+		"java": true,
+		"crystal": true,
+		"ruby": true,
+		"html": true,
+		"scss": true,
+		"svelte": true,
+		"toml": true,
+		"make": true,
+		"flexoki-themes": true,
+		"vscode-icons": true,
+		"emmet": true,
+		"git-firefly": true
+	},
+	"show_edit_predictions": false,
+	"file_types": {
+		"C": ["c", "h"],
+		"C++": ["cpp", "hpp"]
+	},
+	"languages": {
+		"Odin": {
+			"show_edit_predictions": true
+		},
+		"Rust": {
+			"show_edit_predictions": false
+		},
+		"C": {
+			"tab_size": 4,
+			"format_on_save": "on"
+		},
+		"C++": {
+			"format_on_save": "on"
+		}
+	},
+	"icon_theme": "VSCode Icons (Dark)",
+	"tabs": {
+		"file_icons": true
+	},
+	"ui_font_size": 16,
+	"buffer_font_size": 12,
+	"buffer_font_weight": 400,
+	"buffer_font_family": "Fira Code",
+	"buffer_line_height": "standard",
+	"theme": {
+		"mode": "system",
+		"light": "Flexoki Dark",
+		"dark": "One Dark"
+	},
+	"hard_tabs": true,
+	"tab_size": 4,
+	"show_wrap_guides": true,
+	"wrap_guides": [80]
+}
