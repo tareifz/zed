@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+	"disable_ai": true,
 	"auto_install_extensions": {
 		"zig": true,
 		"odin": true,
@@ -42,7 +43,7 @@
 		},
 		"C++": {
 			"indent_guides": {
-				"line_width": 5
+				"line_width": 2
 			},
 			"format_on_save": "on"
 		}
@@ -52,7 +53,7 @@
 		"file_icons": true
 	},
 	"ui_font_size": 16,
-	"buffer_font_size": 12,
+	"buffer_font_size": 16,
 	"buffer_font_weight": 400,
 	"buffer_font_family": "GitLab Mono",
 	"buffer_line_height": "standard",
