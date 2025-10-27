@@ -22,6 +22,7 @@
 		"flexoki-themes": true,
 		"vscode-icons": true,
 		"monospace-icon-theme": true,
+		"modern-icons": true,
 		"emmet": true,
 		"git-firefly": true
 	},
@@ -48,7 +49,10 @@
 			"format_on_save": "on"
 		}
 	},
-	"icon_theme": "Monospace Icon Theme - Dark",
+	"toolbar": {
+		// "breadcrumbs": false,
+		"quick_actions": false
+	},
 	"tabs": {
 		"file_icons": true
 	},
@@ -61,6 +65,10 @@
 		"mode": "system",
 		"light": "Flexoki Dark",
 		"dark": "One Dark"
+	},
+	"icon_theme": {
+		"light": "Modern Icons (Light)",
+		"dark": "Modern Icons (Dark)"
 	},
 	"hard_tabs": true,
 	"tab_size": 4,

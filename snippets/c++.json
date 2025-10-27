@@ -1,4 +1,9 @@
 {
+	"ns": {
+		"prefix": "ns",
+		"description": "Namespace clause",
+		"body": ["namespace $1 {", "", "$0", "", "}"]
+	},
 	"cppheader": {
 		"prefix": "cppheader",
 		"description": "Header template for c++ files",
