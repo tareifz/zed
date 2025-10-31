@@ -47,6 +47,15 @@
 				"line_width": 2
 			},
 			"format_on_save": "on"
+		},
+		"Crystal": {
+			"language_servers": ["!crystalline", "..."],
+			"formatter": {
+				"external": {
+					"command": "crystal",
+					"arguments": ["tool", "format", "-"]
+				}
+			}
 		}
 	},
 	"toolbar": {
@@ -63,8 +72,8 @@
 	"buffer_line_height": "standard",
 	"theme": {
 		"mode": "system",
-		"light": "Flexoki Dark",
-		"dark": "One Dark"
+		"light": "Flexoki Light",
+		"dark": "Flexoki Dark"
 	},
 	"icon_theme": {
 		"light": "Modern Icons (Light)",
