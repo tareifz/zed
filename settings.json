@@ -20,6 +20,7 @@
 		"toml": true,
 		"make": true,
 		"flexoki-themes": true,
+		"darker-horizon": true,
 		"vscode-icons": true,
 		"monospace-icon-theme": true,
 		"modern-icons": true,
@@ -72,8 +73,8 @@
 	"buffer_line_height": "standard",
 	"theme": {
 		"mode": "system",
-		"light": "Flexoki Light",
-		"dark": "Flexoki Dark"
+		"light": "Darker Horizon",
+		"dark": "Darker Horizon"
 	},
 	"icon_theme": {
 		"light": "Modern Icons (Light)",
